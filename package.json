@@ -1,0 +1,24 @@
+{
+  "name": "testimonials-section",
+  "version": "1.0.0",
+  "description": "![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./main/output.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./main/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proAbenezer/Testimonials-section.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/proAbenezer/Testimonials-section/issues"
+  },
+  "homepage": "https://github.com/proAbenezer/Testimonials-section#readme",
+  "devDependencies": {
+    "tailwindcss": "^4.0.0"
+  }
+}
